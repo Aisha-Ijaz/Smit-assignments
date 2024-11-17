@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form>
+        <ul>
+            <li><label for="name">Name:</label>
+                <input type="text" name="name">
+            </li>
+
+            <li><label for="email">Email:</label>
+                <input type="email" name="email">
+            </li>
+
+            <li><label for="password">Password:</label>
+                <input type="password" name="password">
+            </li><br>
+
+            <li>Please check all the emotions apply to you:
+                <ul>
+                    <li>
+                        Angry<input type="checkbox" name="angry" checked="checked">
+                    </li>
+                    <li>
+                        Sad<input type="checkbox" name="sad">
+                    </li>
+                    <li>
+                        Happy<input type="checkbox" name="happy">
+                    </li>
+                    <li>
+                        Ambivalent<input type="checkbox" name="ambivalent">
+                    </li>
+                </ul>
+            </li>
+
+            <li>How satisfied were you with our service?
+                <ul>
+                    <li>
+                        Very satisfied<input type="radio" name="satisfaction" checked="checked">
+                    </li>
+                    <li>
+                        Satisfied<input type="radio" name="satisfaction">
+                    </li>
+                    <li>
+                        Didn't care<input type="radio" name="satisfaction">
+                    </li>
+                    <li>
+                        Dissatisfied<input type="radio" name="satisfaction">
+                    </li>
+                    <li>
+                        Very dissatisfied<input type="radio" name="satisfaction">
+                    </li>
+                </ul>
+            </li>
+
+            <li>Further comments:
+                <textarea name="comments" id="comments"></textarea>
+            </li>
+
+            <li>
+                Bio photo:
+                <input type="file" name="photo">
+                <input type="submit" value="choose...">
+            </li>
+
+            <li>Location visited:
+                <select name="location" id="location">
+                    <option value="selectLocation">Select location</option>
+                    <option value="karachi">Karachi</option>
+                    <option value="peshawar">Peshawar</option>
+                    <option value="lahore">Lahore</option>
+                    <option value="islamabad">Islamabad</option>
+                </select>
+            </li><br>
+
+            <li>
+                <input type="button" value="submit">
+            </li>
+
+        </ul>
+        
+    </form>
+</body>
+</html>

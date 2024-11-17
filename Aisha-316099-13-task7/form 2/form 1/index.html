@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <form>
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName">
+
+        <label for="LastName">Last Name:</label>
+        <input type="text" name="lastName"><br><br>
+
+        <label for="dateofbirth">Date of birth:</label>
+        <input type="date">
+
+        <label for="age">Age:</label>
+        <input type="number"><br><br>
+
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        </select>
+
+        <label for="email">Email Address:</label>
+        <input type="email" name="email"><br><br>
+
+        <label for="">Position Available:</label>
+        <input type="radio" name="position" value="juniorDeveloper">Junior Developer
+        <input type="radio" name="position" value="mid-levelDeveloper">Mid-Level Developer
+        <input type="radio" name="position" value="seniorDeveloper">Senior Developer
+        <br><br>
+
+        <label for="programmingLanguage">Programming Languages:</label>
+        <input type="checkbox" name="java" value="java">Java
+        <input type="checkbox" name="javaScript" value="javaScript">Java Script
+        <input type="checkbox" name="python" value="python">Python
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" maxlength="8">
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" maxlength="8"><br><br>
+
+        <input type="button" value="Submit">
+        <input type="button" value="Reset">
+    </form>
+</body>
+</html>
